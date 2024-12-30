@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Infected" Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #000;
+            color: #f00;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            margin-top: 50px;
+        }
+
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+            gap: 15px;
+        }
+
+        button {
+            background-color: #333;
+            color: white;
+            border: 2px solid #f00;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        button:hover {
+            background-color: #f00;
+            color: #000;
+            transform: scale(1.1);
+        }
+
+        .clean-button {
+            background-color: #0f0;
+            border-color: #0f0;
+            color: #000;
+        }
+
+        .clean-button:hover {
+            background-color: #000;
+            color: #0f0;
+        }
+    </style>
+    <script>
+        function virusAlert() {
+            alert("Your computer is now filled with viruses!");
+        }
+
+        function cleanAlert() {
+            alert("Congratulations! All viruses have been cleaned!");
+        }
+    </script>
+</head>
+<body>
+    <h1>Warning: Your Computer is at Risk!</h1>
+    <p>Click at your own risk...</p>
+
+    <div class="button-container">
+        <!-- Virus buttons -->
+        <button onclick="virusAlert()">Button 1</button>
+        <button onclick="virusAlert()">Button 2</button>
+        <button onclick="virusAlert()">Button 3</button>
+        <button onclick="virusAlert()">Button 4</button>
+        <button onclick="virusAlert()">Button 5</button>
+        <button onclick="virusAlert()">Button 6</button>
+        <button onclick="virusAlert()">Button 7</button>
+        <button onclick="virusAlert()">Button 8</button>
+        <button onclick="virusAlert()">Button 9</button>
+        <button onclick="virusAlert()">Button 10</button>
+
+        <!-- Clean button -->
+        <button class="clean-button" onclick="cleanAlert()">Clean All Viruses</button>
+    </div>
+</body>
+</html>

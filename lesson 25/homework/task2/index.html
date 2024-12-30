@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegetable Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f8f0;
+        }
+
+        h1 {
+            color: #4CAF50;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .vegetable {
+            width: 200px;
+            height: 200px;
+            cursor: pointer;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            transition: transform 0.2s;
+        }
+
+        .vegetable:hover {
+            transform: scale(1.1);
+        }
+    </style>
+    <script>
+        function changeImage(imgElement, newSrc) {
+            imgElement.src = newSrc;
+        }
+    </script>
+</head>
+<body>
+    <h1>Welcome to the Vegetable Store</h1>
+    <p>Click on a vegetable to see another!</p>
+
+    <div class="container">
+        <img class="vegetable" src="vegetables/tomato1.jpg" 
+            onclick="changeImage(this, 'vegetables/tomato2.jpg')" 
+            alt="Tomato">
+
+        <img class="vegetable" src="vegetables/cucumber1.jpg" 
+            onclick="changeImage(this, 'vegetables/cucumber2.jpg')" 
+            alt="Cucumber">
+
+        <img class="vegetable" src="vegetables/carrot1.jpg" 
+            onclick="changeImage(this, 'vegetables/carrot2.jpg')" 
+            alt="Carrot">
+
+        <img class="vegetable" src="vegetables/bellpepper1.jpg" 
+            onclick="changeImage(this, 'vegetables/bellpepper2.jpg')" 
+            alt="Bell Pepper">
+
+        <img class="vegetable" src="vegetables/eggplant1.jpg" 
+            onclick="changeImage(this, 'vegetables/eggplant2.jpg')" 
+            alt="Eggplant">
+    </div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>მარტივი HTML საიტი</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        nav {
+            margin-bottom: 20px;
+        }
+        nav a {
+            margin-right: 20px;
+            text-decoration: none;
+            color: blue;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>მარტივი HTML საიტი</h1>
+
+    <!-- ნავიგაციის ლინკები -->
+    <nav>
+        <a href="#home">მთავარი</a>
+        <a href="#services">სერვისები</a>
+        <a href="#contact">კონტაქტი</a>
+    </nav>
+
+    <!-- Facebook-ის პროფილის ლინკი -->
+    <p>მოინახულეთ ჩემი <a href="https://www.facebook.com" target="_blank">Facebook პროფილი</a></p>
+
+    <!-- Alert ღილაკები -->
+    <button onclick="alert('მთავარი ღილაკი დააჭირე!')">დაწკაპუნე ღილაკზე</button>
+    <button onclick="alert('სხვა ინფორმაცია!')">ინფორმაცია</button>
+
+    <!-- შესატანი ველები -->
+    <h2>შეიყვანეთ ინფორმაცია</h2>
+    <form>
+        <label for="name">სახელი:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="phone">ტელეფონის ნომერი:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <button type="submit">გაგზავნა</button>
+    </form>
+
+</body>
+</html>
