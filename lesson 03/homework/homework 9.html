@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>კოსმოსის შესწავლა</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+            line-height: 1.6;
+        }
+        header {
+            background: #1a1a1a;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #f0db4f;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            color: #f0db4f;
+        }
+        section {
+            padding: 20px;
+        }
+        section img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .card {
+            background: #222;
+            padding: 20px;
+            border-radius: 10px;
+            width: calc(33.333% - 20px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .card h3 {
+            color: #f0db4f;
+            margin: 15px 0;
+        }
+        footer {
+            background: #1a1a1a;
+            padding: 20px;
+            text-align: center;
+        }
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+        button {
+            background-color: #f0db4f;
+            color: #000;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #daa520;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>კოსმოსის შესწავლა</h1>
+    </header>
+    <nav>
+        <a href="#introduction">შესავალი</a>
+        <a href="#planets">პლანეტები</a>
+        <a href="#missions">მოხალისეები</a>
+        <a href="#gallery">გალერეა</a>
+        <a href="#contact">კონტაქტი</a>
+    </nav>
+    <section id="introduction">
+        <h2>შესავალი კოსმოსში</h2>
+        <p>კოსმოსი არის უსასრულო სამყარო, რომელიც სავსეა საოცრებით და აღმოჩენებით. ადამიანები ცდილობენ გაარკვიონ მისი საიდუმლოებები, 
+           რათა უკეთ გაიგონ ჩვენი არსებობის მიზეზი და პოტენციალი.</p>
+        <img src="space_intro.jpg" alt="კოსმოსის სურათი">
+    </section>
+    <section id="planets">
+        <h2>ჩვენი მზის სისტემა</h2>
+        <div class="content">
+            <div class="card">
+                <img src="mercury.jpg" alt="მერკური">
+                <h3>მერკური</h3>
+                <p>მერკური არის მზესთან ყველაზე ახლოს მდებარე პლანეტა, რომელიც ცნობილია თავისი მცირე ზომით და მყარი ზედაპირით.</p>
+            </div>
+            <div class="card">
+                <img src="venus.jpg" alt="ვენერა">
+                <h3>ვენერა</h3>
+                <p>ვენერა ცნობილია თავისი მძლავრი ატმოსფეროთი და ცხელ ტემპერატურით. მას ხშირად "დედამიწის ტყუპი" უწოდებენ.</p>
+            </div>
+            <div class="card">
+                <img src="earth.jpg" alt="დედამიწა">
+                <h3>დედამიწა</h3>
+                <p>ჩვენი სახლი, პლანეტა დედამიწა, არის ერთადერთი ადგილი, სადაც ვიცით, რომ სიცოცხლე არსებობს.</p>
+            </div>
+        </div>
+    </section>
+    <section id="missions">
+        <h2>კოსმოსური მისიები</h2>
+        <p>ადამიანების მიერ განხორციელებული კოსმოსური მისიები გვთავაზობს უდიდეს ინფორმაციას კოსმოსის შესახებ. </p>
+        <button onclick="alert('იხილეთ კოსმოსური მისიების დეტალები')">გაიგე მეტი</button>
+    </section>
+    <section id="gallery">
+        <h2>კოსმოსის გალერეა</h2>
+        <div class="content">
+            <div class="card">
+                <img src="nebula.jpg" alt="ნებულა">
+                <h3>ნებულა</h3>
+                <p>ნებულა არის ვარსკვლავების წარმოქმნის ადგილი, რომელიც ფერადი გაზებითა და მტვრით არის სავსე.</p>
+            </div>
+            <div class="card">
+                <img src="blackhole.jpg" alt="შავი ხვრელი">
+                <h3>შავი ხვრელი</h3>
+                <p>შავი ხვრელი არის ადგილი, სადაც გრავიტაცია იმდენად ძლიერია, რომ შუქიც ვერ აღწევს.</p>
+            </div>
+            <div class="card">
+                <img src="galaxy.jpg" alt="გალაქტიკა">
+                <h3>გალაქტიკა</h3>
+                <p>გალაქტიკა არის ვარსკვლავების, გაზის და მტვრის მასიური შეკრება, რომელიც ქმნის სამყაროს სტრუქტურას.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>დაგვიკავშირდით</h2>
+        <p>გაქვთ კითხვები კოსმოსის შესახებ? დაუკავშირდით ჩვენს გუნდს!</p>
+        <button onclick="alert('გმადლობთ, რომ დაგვიკავშირდით!')">დაგვიკავშირდით</button>
+    </section>
+    <footer>
+        <p>© 2024 კოსმოსის შესწავლა. ყველა უფლება დაცულია.</p>
+    </footer>
+</body>
+</html>
