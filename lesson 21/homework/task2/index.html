@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Diagram</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        .diagram {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .center-node {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        .arrow {
+            font-size: 24px;
+        }
+        .node {
+            background-color: #f0f0f0;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            width: 300px;
+            margin: 10px 0;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Diagram</h1>
+    <div class="diagram">
+        <div class="center-node">CSS (Cascading Style Sheets)</div>
+        <div class="arrow">↓</div>
+        <div class="node">
+            <strong>What is CSS?</strong><br>
+            CSS is used to style HTML content, including colors, layouts, and fonts.
+        </div>
+        <div class="arrow">↓</div>
+        <div class="node">
+            <strong>Inline CSS</strong><br>
+            Example: <code>&lt;p style="color: red;"&gt;Hello&lt;/p&gt;</code>
+        </div>
+        <div class="arrow">↓</div>
+        <div class="node">
+            <strong>Internal CSS</strong><br>
+            Example: Add a <code>&lt;style&gt;</code> block inside the <code>&lt;head&gt;</code>.
+        </div>
+        <div class="arrow">↓</div>
+        <div class="node">
+            <strong>External CSS</strong><br>
+            Example: Link to an external file with <code>&lt;link rel="stylesheet"&gt;</code>.
+        </div>
+    </div>
+</body>
+</html>
+

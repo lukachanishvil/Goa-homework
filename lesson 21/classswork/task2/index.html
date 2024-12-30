@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paragraph Style Changes</title>
+    <style>
+        /* Only text color */
+        .text-color-1 { color: red; }
+        .text-color-2 { color: blue; }
+        .text-color-3 { color: green; }
+        .text-color-4 { color: purple; }
+        .text-color-5 { color: orange; }
+
+        /* Only background color */
+        .bg-color-1 { background-color: yellow; }
+        .bg-color-2 { background-color: lightblue; }
+        .bg-color-3 { background-color: lightgreen; }
+        .bg-color-4 { background-color: pink; }
+        .bg-color-5 { background-color: lightgray; }
+
+        /* Both text and background color */
+        .both-color-1 { color: white; background-color: black; }
+        .both-color-2 { color: black; background-color: orange; }
+        .both-color-3 { color: yellow; background-color: navy; }
+        .both-color-4 { color: red; background-color: lightyellow; }
+        .both-color-5 { color: green; background-color: brown; }
+
+        /* New Styles */
+        p.red-paragraph {
+            color: red;
+            font-size: 22px;
+            font-weight: 800;
+            text-align: right;
+            border: 5px dashed green;
+        }
+
+        h1.blue-heading {
+            color: blue;
+            font-size: 50px;
+            text-align: center;
+            border: 10px solid green;
+        }
+
+        button.blue-button {
+            color: lightblue;
+            font-size: 30px;
+            font-weight: 900;
+            border: 2px double black;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="blue-heading">Paragraph Style Changes</h1>
+
+    <p class="red-paragraph">This paragraph has custom red styling.</p>
+
+    <button class="blue-button">Click Me</button>
+
+    <!-- Only text color -->
+    <p class="text-color-1">This paragraph has red text.</p>
+    <p class="text-color-2">This paragraph has blue text.</p>
+    <p class="text-color-3">This paragraph has green text.</p>
+    <p class="text-color-4">This paragraph has purple text.</p>
+    <p class="text-color-5">This paragraph has orange text.</p>
+
+    <!-- Only background color -->
+    <p class="bg-color-1">This paragraph has yellow background.</p>
+    <p class="bg-color-2">This paragraph has light blue background.</p>
+    <p class="bg-color-3">This paragraph has light green background.</p>
+    <p class="bg-color-4">This paragraph has pink background.</p>
+    <p class="bg-color-5">This paragraph has light gray background.</p>
+
+    <!-- Both text and background color -->
+    <p class="both-color-1">This paragraph has white text and black background.</p>
+    <p class="both-color-2">This paragraph has black text and orange background.</p>
+    <p class="both-color-3">This paragraph has yellow text and navy background.</p>
+    <p class="both-color-4">This paragraph has red text and light yellow background.</p>
+    <p class="both-color-5">This paragraph has green text and brown background.</p>
+</body>
+</html>
