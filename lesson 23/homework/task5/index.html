@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colspan და rowspan მაგალითი</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <!-- ცხრილის პირველი სტრიქონი -->
+            <td colspan="2">ეს არის colspan</td>
+            <!-- colspan="2" ნიშნავს, რომ ამ უჯრას უნდა ჰქონდეს ორი სვეტი, ანუ ის გაერთიანდება ორ სვეტზე -->
+            <td>დამატებითი უჯრა</td>
+        </tr>
+        <tr>
+            <!-- მეორე სტრიქონი -->
+            <td rowspan="2">ეს არის rowspan</td>
+            <!-- rowspan="2" ნიშნავს, რომ ამ უჯრას უნდა ჰქონდეს ორი სტრიქონი, ანუ ის გაერთიანდება ორ სტრიქონზე -->
+            <td>ეს არის მეორე სტრიქონში</td>
+            <td>ეს არის მესამე სტრიქონში</td>
+        </tr>
+        <tr>
+            <!-- მესამე სტრიქონი -->
+            <td>ამ სტრიქონში კვლავაც არის rowspan</td>
+            <td>და ეს არის მესამე სტრიქონი</td>
+        </tr>
+    </table>
+</body>
+</html>
