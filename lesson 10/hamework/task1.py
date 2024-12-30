@@ -1,0 +1,1 @@
+#shevasrule solo lernis davaleba
