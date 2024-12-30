@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Page</title>
+</head>
+<body>
+    <h1>Video and Audio Example</h1>
+    
+    <!-- Video using video tag with two sources -->
+    <h2>Video (via video tag)</h2>
+    <video controls width="600">
+        <source src="video1.mp4" type="video/mp4">
+        <source src="video1.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Video using iframe -->
+    <h2>Video (via iframe)</h2>
+    <iframe width="600" height="338" 
+            src="https://www.youtube.com/embed/example_video_id" 
+            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+    </iframe>
+    
+    <!-- Audio using audio tag with two sources -->
+    <h2>Audio</h2>
+    <audio controls>
+        <source src="audio1.mp3" type="audio/mpeg">
+        <source src="audio1.ogg" type="audio/ogg">
+        Your browser does not support the audio tag.
+    </audio>
+</body>
+</html>
+
+
