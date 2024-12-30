@@ -1,0 +1,1 @@
+#SevaSrule SololerniS davaleba
