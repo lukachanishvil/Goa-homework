@@ -1,0 +1,15 @@
+/* Class="black-button" სტილი */
+.black-button {
+    background-color: black; /* შავი ფონი */
+    color: white; /* თეთრი ტექსტი */
+    border: none; /* არანაირი საზღვრები */
+    padding: 10px 20px; /* Padding (შიდა სივრცე) */
+    margin: 5px; /* ღილაკებს შორის მცირე დაშორება */
+    border-radius: 5px; /* გრგვინვა (წრფივი კუთხეები) */
+    cursor: pointer; /* მყარი მაუსის კურსორი */
+}
+
+/* დამატებითი სტილი, რომ ღილაკს ჰქონდეს გამოკვეთილი ეფექტი */
+.black-button:hover {
+    background-color: #333; /* მუქი ნაცრისფერი ფონი ჰოვერზე */
+}

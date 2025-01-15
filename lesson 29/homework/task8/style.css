@@ -1,0 +1,39 @@
+/* block1 სელექტორი */
+#block1 {
+    background-color: rgb(255, 204, 204); /* ღია წითელი ფონი */
+    color: rgb(0, 0, 0); /* შავი ფერი ტექსტისთვის */
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+/* block2 სელექტორი */
+#block2 {
+    background-color: rgb(204, 255, 204); /* ღია მწვანე ფონი */
+    color: rgb(0, 0, 0); /* შავი ფერი ტექსტისთვის */
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+/* block3 სელექტორი */
+#block3 {
+    background-color: rgb(204, 204, 255); /* ღია ლურჯი ფონი */
+    color: rgb(0, 0, 0); /* შავი ფერი ტექსტისთვის */
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+/* block4 სელექტორი */
+#block4 {
+    background-color: rgb(255, 255, 204); /* ღია ყვითელი ფონი */
+    color: rgb(0, 0, 0); /* შავი ფერი ტექსტისთვის */
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+/* block5 სელექტორი */
+#block5 {
+    background-color: rgb(255, 204, 255); /* ღია მურა ფონი */
+    color: rgb(0, 0, 0); /* შავი ფერი ტექსტისთვის */
+    padding: 20px;
+    margin-bottom: 10px;
+}
