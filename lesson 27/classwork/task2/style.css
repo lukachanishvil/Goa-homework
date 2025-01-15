@@ -1,0 +1,19 @@
+/* H1 ელემენტის სტილის შეცვლა */
+h1 {
+    color: #4CAF50; /* ტექსტის ფერი */
+    background-color: #f0f0f0; /* ფონის ფერი */
+    text-align: center; /* განლაგება */
+    font-size: 32px; /* ტექსტის ზომა */
+    font-weight: bold; /* ტექსტის სისქე */
+    border: 2px solid #4CAF50; /* საზღვარი */
+}
+
+/* P ელემენტის სტილი */
+p {
+    color: #555; /* ტექსტის ფერი */
+    background-color: #fff; /* ფონის ფერი */
+    text-align: justify; /* ტექსტის გასწორება */
+    font-size: 16px; /* ტექსტის ზომა */
+    font-weight: normal; /* ტექსტის სისქე */
+    border: 1px dashed #aaa; /* საზღვარი */
+}

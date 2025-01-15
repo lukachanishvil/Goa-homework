@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Demo</title>
+  <style>
+    /* Internal CSS: სელექტორი, დეკლარაცია და მემკვიდრეობა */
+    body {
+      font-family: Arial, sans-serif;
+      color: blue; /* მემკვიდრეობით შვილი ელემენტები მიიღებენ ლურჯ ფერს */
+    }
+
+    /* Descendant Selector: თუ <div>ში პარფიგია, სტილი ამ პეიჯზეც იმოქმედებს */
+    div p {
+      color: red; /* <p> ელემენტები <div> შიგნით იქნება წითელი */
+    }
+
+    /* CSS Rule: სელექტორი და დეკლარაცია */
+    p {
+      font-size: 18px; /* პარფიგი ელემენტებს ჰქონდათ 18px ზომა */
+    }
+
+    .highlight {
+      background-color: yellow; /* კლასის highlight სტილი */
+      font-weight: bold; /* ფოსტის გაძლიერება */
+    }
+  </style>
+</head>
+<body>
+  <h1>CSS-თან მუშაობა</h1>
+  
+  <p class="highlight">ეს პარფიგია გამოჩენილია როგორც გაძლიერებული და ფონი გაღიელებულია.</p>
+  
+  <div>
+    <p>ეს პარფიგია <strong>div</strong> კონტეინერში, მისი ფერი იქნება წითელი.</p>
+  </div>
+
+  <p>ამ პარფიგის ტექსტი მემკვიდრეობით იღებს ლურჯ ფერს, რადგან <code>body</code> ელემენტმა ის მიიღო.</p>
+</body>
+</html>

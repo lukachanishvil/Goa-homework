@@ -1,0 +1,49 @@
+/* ზოგადი სტილი */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* ძირითადი ფონი */
+    background-color: #f4f4f4; /* გვერდის ფონდის ფერი */
+    color: #333; /* ტექსტის ფერი */
+}
+
+/* კონტეინერი */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; /* ცენტრირება */
+    padding: 20px;
+}
+
+/* Header სტილი */
+header {
+    background-color: #3498db; /* ცისფერი ფონი */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Content სტილი */
+.content {
+    background-color: white; /* თეთრი ფონდი */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* ჩრდილის ეფექტი */
+}
+
+/* Footer სტილი */
+footer {
+    background-color: #2c3e50; /* მუქი ნაცრისფერი ფონი */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+

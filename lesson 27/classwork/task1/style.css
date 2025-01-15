@@ -1,0 +1,31 @@
+/* დივ ბლოკის სტილი */
+.styled-block {
+    color: #ffffff; /* ტექსტის ფერი */
+    background-color: #4CAF50; /* ფონის ფერი */
+    text-align: center; /* ტექსტის განლაგება */
+    font-size: 18px; /* ტექსტის ზომა */
+    font-weight: bold; /* ტექსტის სისქე */
+    border: 3px solid #000000; /* საზღვარი */
+    padding: 20px; /* შიდა სივრცე */
+    margin: 20px; /* გარე სივრცე */
+    border-radius: 10px; /* საზღვრის მომრგვალება */
+}
+
+/* h1 ელემენტების სტილი */
+.styled-block h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* h2 ელემენტების სტილი */
+.styled-block h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+/* p ელემენტების სტილი */
+.styled-block p {
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+ 
