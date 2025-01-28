@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  position: relative;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+.word {
+  position: absolute;
+  font-size: 20px;
+}
+
+.hello {
+  top: 10px;
+  right: 50px;
+}
+
+.world {
+  top: 60px;
+  left: 40px;
+  text-decoration: line-through;
+}
+
+.goal {
+  top: 120px;
+  left: 100px;
+  text-decoration: underline;
+}
+
+.oriented {
+  top: 150px;
+  right: 100px;
+}
+
+.academy {
+  top: 200px;
+  left: 20px;
+  text-decoration: line-through;
+}
+
+.is {
+  top: 240px;
+  left: 60px;
+}
+
+.best {
+  top: 280px;
+  left: 80px;
+  font-weight: bold;
+  color: gray;
+}
+
+.the {
+  top: 280px;
+  right: 140px;
+  text-decoration: underline;
+  color: green;
+}
+
+.one {
+  top: 320px;
+  right: 50px;
+}

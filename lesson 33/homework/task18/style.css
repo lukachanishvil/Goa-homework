@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'BoldDecorativeFont';
+    src: url('fonts/BoldDecorativeFont.woff2') format('woff2'),
+         url('fonts/BoldDecorativeFont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  button {
+    font-family: 'BoldDecorativeFont', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
