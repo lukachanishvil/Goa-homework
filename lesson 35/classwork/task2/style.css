@@ -1,0 +1,13 @@
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    border: 5px solid green; 
+}
+
+
+td {
+    border: 5px solid green; 
+    padding: 10px;
+    text-align: center;
+}
